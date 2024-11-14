@@ -7,34 +7,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Food Picker</h1>
-        <nav>
+    <div class="container">
+        <aside class="sidebar">
             <ul>
                 <li><a href="index.html">Home</a></li>
+				<li><a href="food-picker.html">Food Picker</a></li>
+                <li><a href="tic-tac-toe.html">Tic Tac Toe</a></li>
             </ul>
-        </nav>
-    </header>
+        </aside>
 
-    <main>
-        <h2>Pick a food to get a suggestion!</h2>
-        <label for="food-list">Choose a food:</label>
-        <select id="food-list">
-            <option value="">Select a food...</option>
-            <option value="pizza">Pizza</option>
-            <option value="burger">Burger</option>
-        </select>
+        <div class="main-content">
+            <main>
+                <h2>Pick a food to get a suggestion!</h2>
+                <label for="food-list">Choose a food:</label>
+                <select id="food-list">
+                    <option value="">Select a food...</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="burger">Burger</option>
+                </select>
 
-        <button onclick="suggestFood()">Get Suggestion</button>
+                <button onclick="suggestFood()">Get Suggestion</button>
 
-        <h3>Your suggestion:</h3>
-        <p id="suggestion-output">Please choose a food to get a suggestion.</p>
-    </main>
+                <h3>Your suggestion:</h3>
+                <p id="suggestion-output">Please choose a food to get a suggestion.</p>
+            </main>
 
     <footer class="footer">
         <p>&copy; 2024 Programming Playground. All Rights Reserved. Greg Lewis made this for Arely Moreno.</p>
     </footer>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
