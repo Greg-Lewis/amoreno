@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Food Picker</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Pick a food to get a suggestion!</h2>
+        <label for="food-list">Choose a food:</label>
+        <select id="food-list">
+            <option value="">Select a food...</option>
+            <option value="pizza">Pizza</option>
+            <option value="burger">Burger</option>
+        </select>
+
+        <button onclick="suggestFood()">Get Suggestion</button>
+
+        <h3>Your suggestion:</h3>
+        <p id="suggestion-output">Please choose a food to get a suggestion.</p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Programming Playground. All Rights Reserved. Greg Lewis made this for Arely Moreno.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
