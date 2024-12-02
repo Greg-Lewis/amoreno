@@ -8,7 +8,7 @@ function suggestFood() {
     const suggestions = {
         pizza: ["Pepperoni Pizza", "Margherita Pizza", "Veggie Pizza", "BBQ Chicken Pizza"],
         burger: ["Cheeseburger", "Veggie Burger", "Bacon Burger", "Chicken Burger"],
-        tacos: ["Beef Tacos", "Chicken Tacos", "Pork Tacos", "Veggies Tacos"]
+        tacos: ["Beef Tacos", "Chicken Tacos", "Pork Tacos", "Veggie Tacos"]
     };
 
     if (selectedFood) {
